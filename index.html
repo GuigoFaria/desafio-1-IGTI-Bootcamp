@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <title>Pesquisa Usuários </title>
+</head>
+
+<body>
+  <h1>Pesquisa Usuários</h1>
+  <form>
+    <p>
+      <input type="text" id="pesquisaInput" />
+      <input type="submit" id="botaoPesquisa" value="buscar" disabled />
+    </p>
+
+
+  </form>
+
+  <div class="pessoas-container">
+    <div class="pessoa-list">
+      <h5 id="pessoasEncontradas">Nenhum usuário encontrado</h5>
+      <div id="tabPessoas"></div>
+    </div>
+    <div class="pessoa-list">
+      <h5>Estatísticas</h5>
+      <div id="tabEstatisticas"></div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
